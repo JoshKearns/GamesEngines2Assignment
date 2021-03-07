@@ -20,3 +20,10 @@ Camera orbits reef showing a variety of fish interacting with reef and each othe
 
 Scene 5: 
 Shark swoops in, fish avoid shark.
+
+
+
+
+I will be using a low poly asset pack for most of the environment and fish models.
+
+The low poly design will help keep the scene running smoothly.
