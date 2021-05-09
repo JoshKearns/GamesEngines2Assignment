@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4929937364553573334
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4929937364553573333}
+  - component: {fileID: 4929937364553573339}
+  m_Layer: 0
+  m_Name: FishStationery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4929937364553573333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929937364553573334}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4929937364553573339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4929937364553573334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0844ad66ce1c844af9a34dd671c165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flockUnitPrefab:
+  - {fileID: 7956272066661879355, guid: 59ca6f58a356d574db41641ea202c2c1, type: 3}
+  - {fileID: 7956272066661879355, guid: f0ed922bc0f3e5646a765afccd63694f, type: 3}
+  - {fileID: 7956272066661879355, guid: de339631e752237479d22585d982707f, type: 3}
+  - {fileID: 7956272066661879355, guid: b34ea8350f3259d469e2cc8eb1fde438, type: 3}
+  flockSize: 40
+  spawnBounds: {x: 5, y: 5, z: 5}
+  spawnHolder: {fileID: 0}
+  _minSpeed: 1
+  _maxSpeed: 3
+  _cohesionDistance: 2
+  _avoidanceDistance: 1
+  _alignmentDistance: 1
+  _obstacleDistance: 2
+  _boundsDistance: 5
+  _cohesionWeight: 1
+  _avoidanceWeight: 1
+  _alignmentWeight: 1
+  _boundsWeight: 5
+  _obstacleWeight: 100

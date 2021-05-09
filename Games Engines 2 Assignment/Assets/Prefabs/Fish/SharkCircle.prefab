@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &272477332861048526
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 272477332861048525}
+  - component: {fileID: 272477332861048515}
+  m_Layer: 0
+  m_Name: SharkStationery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272477332861048525
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272477332861048526}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4140615364315381453}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &272477332861048515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 272477332861048526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0844ad66ce1c844af9a34dd671c165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flockUnitPrefab:
+  - {fileID: 5796035285798873851, guid: 700a0893c22ee7248936e1e25db790a1, type: 3}
+  flockSize: 1
+  spawnBounds: {x: 1, y: 1, z: 1}
+  spawnHolder: {fileID: 0}
+  _minSpeed: 1.5
+  _maxSpeed: 1.5
+  _cohesionDistance: 2
+  _avoidanceDistance: 1
+  _alignmentDistance: 4
+  _obstacleDistance: 10
+  _boundsDistance: 2
+  _cohesionWeight: 3
+  _avoidanceWeight: 8
+  _alignmentWeight: 5
+  _boundsWeight: 5
+  _obstacleWeight: 100
+--- !u!1 &427585245729180788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 427585245729180789}
+  - component: {fileID: 427585245729180786}
+  m_Layer: 0
+  m_Name: SharkStationery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &427585245729180789
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427585245729180788}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4140615364315381453}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &427585245729180786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427585245729180788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0844ad66ce1c844af9a34dd671c165, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flockUnitPrefab:
+  - {fileID: 5796035285798873851, guid: 700a0893c22ee7248936e1e25db790a1, type: 3}
+  flockSize: 1
+  spawnBounds: {x: 1, y: 1, z: 1}
+  spawnHolder: {fileID: 0}
+  _minSpeed: 2
+  _maxSpeed: 2
+  _cohesionDistance: 2
+  _avoidanceDistance: 1
+  _alignmentDistance: 4
+  _obstacleDistance: 10
+  _boundsDistance: 2
+  _cohesionWeight: 3
+  _avoidanceWeight: 8
+  _alignmentWeight: 5
+  _boundsWeight: 5
+  _obstacleWeight: 100
+--- !u!1 &4140615364315381454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4140615364315381453}
+  - component: {fileID: 4140615364315381452}
+  m_Layer: 0
+  m_Name: SharkCircle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4140615364315381453
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140615364315381454}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 272477332861048525}
+  - {fileID: 427585245729180789}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4140615364315381452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4140615364315381454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60fe353878d03674db76497dc3ec81dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotateSpeed: 10
+  rotateX: 0
+  rotateY: 0
+  rotateZ: 0
