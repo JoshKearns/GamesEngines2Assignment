@@ -41,15 +41,15 @@ The low poly models maked to look I wanted.
 ## How it works:
 There are around 1000 moving boids in the scene running at 40 - 50 Fps. I tried adding more but could not optimise it any further to sustain a high enough frame rate.
 The boids are split into different categories:
-###### Flock Idle:
+#### Flock Idle:
 This flock is set to freely move within the bounds of its set location.
-###### Flock Random Moving:
+#### Flock Random Moving:
 The target point of the flock is set to move to a new location within line of sight at certain intervals. This was set to trigger based change before but I prefered on a timer as it allowed the flock to reach its destination and mimic the idle state at a much larger scale for a moment.
-###### Flock Follow:
+#### Flock Follow:
 A single movement point the flock is constantly chasing.
-###### Singular 3D Moving:
+#### Singular 3D Moving:
 Single entity moving around a 3D space eg. Hot air balloon/ sharks at sunken ship
-###### Singular 2D Moving:
+#### Singular 2D Moving:
 Same as above but with the Y axis locks eg. Boat
 
 ## How to play:
