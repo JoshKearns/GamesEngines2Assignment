@@ -1,9 +1,6 @@
 # GamesEngines2Assignment
-
-
-
-https://www.youtube.com/watch?v=<lgXfAAuksV0>
-https://youtu.be/<lgXfAAuksV0>
+  
+[![Watch the video](https://img.youtube.com/vi/lgXfAAuksV0/maxresdefault.jpg)](https://youtu.com/lgXfAAuksV0)
 
 For this project I want to showcase the flocking algorithm through an underwater scene.
 
