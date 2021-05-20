@@ -3,7 +3,7 @@
 
 
 https://www.youtube.com/watch?v=<lgXfAAuksV0>
-https://youtu.be/<VIDEO URL>
+https://youtu.be/<lgXfAAuksV0>
 
 For this project I want to showcase the flocking algorithm through an underwater scene.
 
