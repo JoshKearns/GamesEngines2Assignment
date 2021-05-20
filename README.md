@@ -1,6 +1,6 @@
 # GamesEngines2Assignment
  
-##Video: 
+##Video
 [![Watch the video](https://img.youtube.com/vi/lgXfAAuksV0/maxresdefault.jpg)](https://youtu.be/lgXfAAuksV0)
 
 ##Story: 
